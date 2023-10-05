@@ -1,31 +1,40 @@
 ---
 layout: base.njk
-title: Hola Mundo 11ty
+title: Blog de Yiztino/Luis Lemus
 ---
 
 # {{ title }}
 
-- Primavera
-- Verano
-- Otoño
-- Invierno
+![Imagen de Luis]({{ '/static/img/YiztinoBanner.png' | url }})
+- Un pequeño blog sobre cosas interesantes relacionadas a la filosofía, los videojuegos o el desarrollo de software interactivo ;D
 
-[Acerca]({{ '/acerca' | url }})
+[Conóceme]({{ '/acerca' | url }})
+
 
 ## Artículos de mi Blog
 
-### Categoría Libros
+### Videojuegos con contenido útil
 
-{% for libro in collections.libros %}
 
-- [{{libro.data.title}}]({{ libro.url | url }})
+{% for videojuego in collections.videojuegos %}
+
+- [{{videojuego.data.title}}]({{ videojuego.url | url }})
+
+{% endfor %}
+
+### Reflexiones sobre filosofía
+
+{% for reflexionFilo in collections.reflexionesFilosofia %}
+
+- [{{reflexionFilo.data.title}}]({{ reflexionFilo.url | url }})
 
 {% endfor %}
 
-### Categoria Series
+### Mi contenido multimedia favorito 
 
-{% for serie in collections.series %}
+{% for contenidoMulti in collections.contenidosMulti %}
 
-- [{{serie.data.title}}]({{ serie.url | url }})
+- [{{contenidoMulti.data.title}}]({{ contenidoMulti.url | url }})
 
 {% endfor %}
+
