@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Reseña del libro 1
-tags: libros
+title: Reflexión acerca de la utilidad de la filosofía en la vida cotidiana
+tags: reflexionesFilosofia
 ---
 
 # {{title}}

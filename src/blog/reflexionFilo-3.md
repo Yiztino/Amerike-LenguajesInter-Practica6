@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Reseña del libro 3
-tags: libros
+title: Reflexión acerca de las similitudes entre el budhismo y el estoicismo 
+tags: reflexionesFilosofia
 ---
 
 # {{title}}

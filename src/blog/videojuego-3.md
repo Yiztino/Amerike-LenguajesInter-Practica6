@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Reseña de la serie 3
-tags: series
+title: Reseña de "Vampyr"
+tags: videojuegos
 ---
 
 # {{title}}

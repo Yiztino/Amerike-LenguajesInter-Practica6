@@ -18,3 +18,8 @@ img{
   margin: 0 auto;
   display: block;
 }
+
+li {
+  text-align: left; 
+  width: fit-content; 
+}

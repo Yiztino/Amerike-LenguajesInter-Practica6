@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Reseña de la serie 1
-tags: series
+title: Reseña de "Detroit Become Human"
+tags: videojuegos
 ---
 
 # {{title}}

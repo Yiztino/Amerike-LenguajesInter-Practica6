@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Reseña del libro 2
-tags: libros
+title: Reflexión acerca de la caverna de platón
+tags: reflexionesFilosofia
 ---
 
 # {{title}}
